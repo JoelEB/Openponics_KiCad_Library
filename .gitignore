@@ -1,15 +1,7 @@
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
-
-# Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*~
-_autosave-*
+#############
+## KiCAD
+#############
 *.tmp
-*-cache.lib
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
@@ -21,6 +13,34 @@ _autosave-*
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
+
+#############
+## Eagle
+#############
+# Ignore the board and schematic backup files
+*.b#?
+*.s#?
+
+#############
+## Mac
+#############
+*.DS_Store
+
+#################
+## AVR Development
+#################
+*.eep
+*.elf
+*.lst
+*.lss
+*.sym
+*.d
+*.o
+*.srec
+*.map
+
+
+
+
+
+
