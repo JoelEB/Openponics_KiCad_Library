@@ -1,0 +1,12 @@
+(module RAS_PI_MOUNTING_HOLES locked (layer F.Cu) (tedit 5C74AEDC)
+  (fp_text reference PI_Board (at -28.575 -4.445) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (fp_text value VAL** (at -27.305 -4.445) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (pad "" np_thru_hole circle (at 29 0) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -29 0) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -29 49) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 29 49) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask))
+)
