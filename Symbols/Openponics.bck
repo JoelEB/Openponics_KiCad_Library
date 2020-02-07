@@ -6,4 +6,10 @@ K can transceiver isolated protected
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM3053.pdf
 $ENDCMP
 #
+$CMP LTC4316
+D Digital potentiometer, 256 position, single output, I2C interface
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf
+$ENDCMP
+#
 #End Doc Library
